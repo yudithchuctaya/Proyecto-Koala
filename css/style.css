@@ -5,10 +5,11 @@ army green: 41521F;
 *{
 	padding: 0;
 	margin: 0;
-	outline: 2px solid red;
+	/*outline: 2px solid red;*/
 }
 header{
     background-image: url(../img/portada.jpg);
+    background-size: 100%;
     width: 100%;
 	height: 1000px;
 	background-repeat: no-repeat;
@@ -20,10 +21,24 @@ header{
 .col-md-6 a{
 	color: #FFF;
 	text-decoration: none; 
-}.caja-header{
-	width: 8%
-	height:50px;
 }
+.caja-header{
+	color: #fff;
+	width:30%;
+	height:300px;
+	margin-left: 6%;
+	margin-top: 25%;
+}
+.caja-header .btn {
+	background:#41521F; 
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+.caja-header .btn:hover{
+	background: #41521F;
+}
+
 
 header nav{
     position: fixed;
@@ -38,24 +53,187 @@ line-height: 70px;
 text-align: right;
 padding-right: 80px;
 }
-nav ul li a{
-    color: #000;
-}
+
 header nav h1{
     margin: 0px;
     margin-left: 30px;
     line-height: 70px;
 }
-header .action img{
-    width: 80px;
-    margin: 15px 0px;
+
+
+
+/*=============================================== PRIMERA SECCION */
+#seccion-1{
+	widows: 100%;
+	height: 600px;
 }
-header .action h1{
-    font-size:2em;
-    text-transform: uppercase;
-    font-weight: bold;
+
+#secion-1.col-md-6{
+	margin-top: 20%;
 }
-.action .btn{
-    margin-top: 15px;
-    text-transform: uppercase;
+#seccion-1 .col-md-6 span{
+	color: #A89F68;
+	font-size: 30px;
 }
+
+#seccion-1  .col-md-3{
+	margin-top: 3%;
+
+}
+#seccion-1 .col-md-3 span {
+	padding: 8px;
+	color: #A89F68;
+	font-size: 20px;
+
+}
+#seccion-1 img{
+/*	background-image: url(../img/tres.jpg);*/
+	background-repeat: no-repeat;
+	width: 50%;
+	height:800px;
+	float: left;
+}
+
+
+/*================================================SEGUNDA SECCION*/
+
+
+
+
+#seccion-2{
+	width: 100%;
+	height: 400px;
+	background: #A89F68;
+	color: #fff;
+	margin-top: 20%;
+}
+#seccion-2  span{
+	color:#41521F;
+	
+}
+#seccion-2 .btn{
+	background: #41521F; 
+	border-radius: 10px;
+	padding: 10px 10px;
+}
+#seccion-2 img{
+	margin-left: 8%;
+	margin-top: 5%;
+}
+#seccion-2 .col-md-5{
+	margin-top: 50px;
+}
+
+/*================================================TERCERA SECCION*/
+
+#seccion-3 {
+	background-image: url(../img/all.jpg);
+    background-size: 100%;
+    width: 100%;
+	height: 1000px;
+	background-repeat: no-repeat;
+    position: absolute;
+    color: #fff;
+    text-align:center;
+ 
+}
+
+/*================================================CUARTA SECCION*/
+
+#seccion-4{
+	width: 100%;
+	height: 300px;
+	margin-top: 65%;
+
+}
+#seccion-4  .title-icon{
+	color: #A89F68;
+	font-size: 40px;
+	margin-left: 20%;
+	text-align:center;
+	margin-bottom: 10%;
+}
+#seccion-4 .glyphicon {
+margin-left: 40%;
+font-size: 50px;
+color: #A89F68;
+}
+/*================================================CUARTA SECCION*/
+#seccion-5{
+	width: 100%;
+	height: 600px;
+	background:#A89F68; 
+	text-align:center;
+}
+#seccion-5 .btn{
+	background: #41521F; 
+	border-radius: 10px;
+	padding: 10px 10px;
+}
+#seccion-5 h1{
+	color: white;
+	font-size: 50px;
+}
+#seccion-5 span{
+	color: white;
+	font-size: 20px;
+}
+
+
+/*================================================footer*/
+footer{
+     width: 100%;
+     height: 200px;
+	background: #41521F; 
+}
+footer .col-md-6{
+	color: #fff;
+	font-size: 15px;
+}
+footer .col-md-6 span{
+	color: #A89F68;
+	font-size: 20px;
+}
+footer .col-md-6 .direction: {
+	color: #A89F68;
+	font-size: 12px;
+}
+
+footer .col-md-3{
+	color: #A89F68;
+	font-size: 20px;
+}
+footer .col-md-3{
+	color: #A89F68;
+	font-size: 20px;
+}
+
+
+
+
+
+@media (min-width: 0px)and (max-width:767px) {
+    p{
+        font-size:15px;
+    }
+} 
+
+
+
+
+
+
+
+/*@media ( min-width : @ pantalla-xs-min) {
+
+    .h1-xs ,
+     .h2-xs ,
+     .h3-xs {
+         margin-top : @ línea-altura-calculada;
+        margin-bottom : (@ line-height-computted / 2 );
+
+        pequeño ,
+        . pequeño {
+             font-size : 65 % ;
+        }
+    }*/
