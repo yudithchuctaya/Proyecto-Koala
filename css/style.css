@@ -188,7 +188,7 @@ footer{
 	background: #41521F; 
 }
 footer .col-md-6{
-	color: #fff;
+	color: black;
 	font-size: 15px;
 }
 footer .col-md-6 span{
@@ -214,7 +214,7 @@ footer .col-md-3{
 
 
 @media (min-width: 0px)and (max-width:767px) {
-    p{
+    p,h1,h3,h4{
         font-size:15px;
     }
 } 
