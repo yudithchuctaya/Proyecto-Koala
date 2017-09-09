@@ -5,7 +5,7 @@ army green: 41521F;
 *{
 	padding: 0;
 	margin: 0;
-	font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
 	/*outline: 2px solid red;*/
 }
 header{
@@ -22,42 +22,42 @@ header{
 .col-md-6 a{
 	color: #FFF;
 	text-decoration: none; 
+left: 80px;
 }
-.caja-header{
+.action-text-center{
 	color: #fff;
-	width:30%;
-	height:300px;
 	margin-left: 6%;
-	margin-top: 25%;
+	margin-top: 12%;
 }
-.caja-header .btn {
+.action-text-center .btn {
 	background:#41521F; 
 	border-radius: 10px;
 	font-size: 20px;
 	padding: 10px 20px;
 }
-.caja-header .btn:hover{
+.action-text-center .btn:hover{
 	background: #41521F;
 }
 
 
-header nav{
+/*header nav{
     position: fixed;
     top: 0px;
     left: 0px;
     color: #fff;
 
-}
+}*/
 
-header nav ul{
+header  ul{
 line-height: 70px;
 text-align: right;
-padding-right: 80px;
+padding-right: 100px;
+margin-left: 90px;
 }
 
-header nav h1{
+header  h1{
     margin: 0px;
-    margin-left: 30px;
+    margin-left: 10px;
     line-height: 70px;
 }
 
@@ -143,23 +143,25 @@ header nav h1{
 
 #seccion-4{
 	width: 100%;
-	height: 300px;
+	height:450px;
 	margin-top: 65%;
 
 }
 #seccion-4  .title-icon{
 	color: #A89F68;
-	font-size: 40px;
+	font-size: 35px;
 	margin-left: 20%;
 	text-align:center;
 	margin-bottom: 10%;
 }
 #seccion-4 .glyphicon {
+	margin-top: 80px;
 margin-left: 40%;
 font-size: 50px;
 color: #A89F68;
 }
-/*================================================CUARTA SECCION*/
+
+/*================================================QUINTA SECCION*/
 #seccion-5{
 	width: 100%;
 	height: 600px;
@@ -173,11 +175,14 @@ color: #A89F68;
 }
 #seccion-5 h1{
 	color: white;
-	font-size: 50px;
+	font-size: 70px;
 }
 #seccion-5 span{
 	color: white;
 	font-size: 20px;
+}
+#seccion-5 h2{
+	color: #41521F;
 }
 
 
@@ -188,7 +193,7 @@ footer{
 	background: #41521F; 
 }
 footer .col-md-6{
-	color: black;
+	color: #fff;
 	font-size: 15px;
 }
 footer .col-md-6 span{
@@ -214,7 +219,7 @@ footer .col-md-3{
 
 
 @media (min-width: 0px)and (max-width:767px) {
-    p,h1,h3,h4{
+    #seccion-1,#seccion-2,#seccion-3,#seccion-4,#seccion-5{
         font-size:15px;
     }
 } 
