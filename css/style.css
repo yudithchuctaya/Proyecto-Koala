@@ -218,28 +218,10 @@ footer .col-md-3{
 
 
 
-@media (min-width: 0px)and (max-width:767px) {
+@media (min-width: 10px) and (max-width:767px) {
     #seccion-1,#seccion-2,#seccion-3,#seccion-4,#seccion-5{
-        font-size:15px;
+        font-size:10px;
     }
 } 
 
 
-
-
-
-
-
-/*@media ( min-width : @ pantalla-xs-min) {
-
-    .h1-xs ,
-     .h2-xs ,
-     .h3-xs {
-         margin-top : @ línea-altura-calculada;
-        margin-bottom : (@ line-height-computted / 2 );
-
-        pequeño ,
-        . pequeño {
-             font-size : 65 % ;
-        }
-    }*/
